@@ -2,4 +2,4 @@ image: "smblott/dcu-docker-gitlab-ci"
 
 test:
   script:
-    - "sh bind/hash.sh"
+    - "sh bin/hash.sh"
