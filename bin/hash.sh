@@ -10,9 +10,9 @@
 #    this task
 #
 
-# echo "user is $GITLAB_USER_LOGIN"
-# echo -n "hash is... "
-# /var/script/hash-args "$GITLAB_USER_LOGIN"
+echo "user is $GITLAB_USER_LOGIN"
+echo -n "hash is... "
+/var/script/hash-args "$GITLAB_USER_LOGIN"
 
 echo
 echo "This is a test:" $(date)
